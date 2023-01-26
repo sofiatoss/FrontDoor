@@ -190,7 +190,7 @@ In order to run the project in Windows OS, a few steps have to be followed:
   pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
   ```
 
-- when using _gtts_ in order to reproduce a mp3 audio, the line of code:
+- when using _gtts_ in order to reproduce a mp3 audio, the line:
 
   ```
   os.system("afplay example1.mp3")
@@ -201,8 +201,10 @@ In order to run the project in Windows OS, a few steps have to be followed:
   ```
   os.system("start example1.mp3")
   ```
+  
+  in the whole code.
 
-- the third part application _Iriun Webcam_ has to be installed on both smartphone and laptop; to make it work, the smartphone one has to be launched as first.
+- the third part application _Iriun Webcam_ has to be installed on both smartphone and laptop; to make it work, the smartphone's one has to be launched as first.
 
 <!----------------------------------{ Images }--------------------------------->
 
