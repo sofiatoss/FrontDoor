@@ -72,9 +72,9 @@ The Python file to run in order to execute the project is <a href="https://githu
 
 In the first phase, the rectangle of the paper is identified in the image. In order to do that, the function `find_init_rect` (in <a href="https://github.com/sofiatoss/FrontDoor/blob/main/src/FIND_INITIAL_RECT.py">FIND_INITIAL_RECT.py</a>) is used. This function finds all the rectangle in the image and, when it's able to find just one rectangle with a certain area and proportion, it crops it and reads the name inside it. The name is thought to be correct and definitive when it's uppercase (as all the names used) and it's read twice in the same way. When this happens, it's told to the user, who can pass to the next phase. The name read is stored to be used later.
 
-<div align = center>
+
 <center><img src="README_IMG/RECOGN.jpeg" width="60%"></center>
-<div align = left>
+
 ## 3.b Mapping of the doorbell
 
 In the second phase, the user stays in front of the doorbell and the image is processed.
@@ -158,9 +158,8 @@ This string is read to the user, together with other instruction, in order to he
 
 In the last phase, the image is processed by the function `get_min_dist` (in <a href="https://github.com/sofiatoss/FrontDoor/blob/main/src/get_distance.py">get_distance.py</a>); inside this function, the coordinate of the index finger (given by the function `index_xy`) are combined with the rectangles' ones in order to find the coordinates of the rectangle at the minimum distance from the finger, returned as output.
 
-<div align = center>
 <center><img src="README_IMG/RING.jpeg" width="60%"></center>
-<div align = left>
+
 ```
 # computes all the distances
 DISTANCES = []
